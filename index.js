@@ -1,7 +1,7 @@
 // const fetch = require("node-fetch");
 function myfunc() {
     const APIKEY = "9261219a33982282e94fdadb75949d4d"
-    const baseurl = 'https://api.themoviedb.org/3/'
+    const baseurl = '//api.themoviedb.org/3/'
     const configurl = baseurl.concat("configuration?api_key=", APIKEY)
     var config
     var moviesearch = "search/movie";
