@@ -4,7 +4,7 @@ function myfunc() {
     const baseurl = 'https://api.themoviedb.org/3/'
     const configurl = baseurl.concat("configuration?api_key=", APIKEY)
     var config
-    var moviesearch = "search/movie/";
+    var moviesearch = "search/movie";
     var moviename = document.querySelector('.moviename').value;
     var url = "".concat(baseurl, moviesearch, "?api_key=", APIKEY, "&query=", moviename);
     console.log(url)
